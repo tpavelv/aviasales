@@ -1,5 +1,7 @@
 Aviasales App #2 - Redux
-ТЗ по тестовому и макет
+
+[aviasales-tpavelv.vercel.app](https://aviasales-tpavelv.vercel.app/) - развернутое приложение
+
 
 - Установлены пакеты для redux, настроина работа redux
 - Реализовано хранение состояния сортировки в сторе редакса
