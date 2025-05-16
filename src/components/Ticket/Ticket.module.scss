@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  .price {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: rgba(33, 150, 243, 1);
+    font-weight: 600;
+    align-self: center;
+  }
+}
+
+.trips-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .flight {
+    display: flex;
+    justify-content: space-between;
+  }
+  .column {
+    width: 141px;
+  }
+  p {
+    margin: 0;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: rgba(160, 176, 185, 1);
+    text-transform: uppercase;
+  }
+  span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0;
+  }
+}

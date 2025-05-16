@@ -1,0 +1,13 @@
+.tickets-list {
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .tickets-item {
+    // border: 1px solid red;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+}
