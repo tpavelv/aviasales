@@ -9,7 +9,7 @@ import reducer from './reducers/reducer'
 
 const store = configureStore({ reducer })
 const root = ReactDOM.createRoot(document.getElementById('root'))
-// console.log(store.getState())
+
 root.render(
   <Provider store={store}>
     <App />
